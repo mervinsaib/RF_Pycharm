@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab0c42f7-825c-48e8-b299-93fabf6252c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RF_Pycharm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/formPage.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/pooltraining.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_form.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pooltraining.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/robot-tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/robot-tests.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/pooltraining.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pooltraining.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +43,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Projects/RobotFramework/RF_Pycharm",
@@ -65,6 +57,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\RobotFramework\RF_Pycharm\.github\workflows" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.Open Example Page">
     <configuration name="Open Example Page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RF_Pycharm" />
@@ -164,7 +161,7 @@
       <workItem from="1773746872149" duration="2653000" />
       <workItem from="1773752617077" duration="924000" />
       <workItem from="1773753800934" duration="34000" />
-      <workItem from="1773753857376" duration="5309000" />
+      <workItem from="1773753857376" duration="6724000" />
     </task>
     <servers />
   </component>

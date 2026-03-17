@@ -18,10 +18,11 @@ ${pagina_header_overmij_tekst}    Over mij
 ${pagina_header_pooltoernooien_tekst}    Pooltoernooien
 ${pagina_header_wistjedat_tekst}    Wist je dat
 ${menu_item}    #menu-menubalk a:has-text("${menu_text}")
+${HEADLESS}    False    # default voor lokaal
 
 *** Keywords ***
 Open Browser setup
-    New Browser    chromium    headless=False    args=["--start-maximized"]
+    New Browser    chromium    headless=${HEADLESS}   args=["--start-maximized"]
     New Context    viewport=None
 
 Wait until argument visible
