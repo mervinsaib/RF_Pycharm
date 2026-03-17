@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Robot Framework output
+output/
+log.html
+report.html
+output.xml
+
+# Browser Library / Playwright
+playwright-report/
