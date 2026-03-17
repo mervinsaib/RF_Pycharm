@@ -5,8 +5,8 @@ Resource   ../resources/formPage.robot
 
 *** Test Cases ***
 Formulier Invullen
-    New Browser    chromium    headless=False
-    New Context
+    New Browser    chromium    headless=True
+    New Context    viewport=None
     New Page    ${FORM_PAGE}
     Wait For Elements State    ${input_firstName}    visible
     Fill Text    ${input_firstName}     ${FIRST_NAME}
