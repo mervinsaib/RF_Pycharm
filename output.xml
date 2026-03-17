@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-17T15:53:48.782826" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Pooltraining" source="C:\Projects\RobotFramework\RF_Pycharm\tests\test_pooltraining.robot">
+<kw name="Open Browser setup" owner="pooltraining" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-17T15:53:49.085272" level="INFO">{"browser": "chromium", "headless": false, "args": ["--start-maximized"], "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Projects\\RobotFramework\\RF_Pycharm\\browser\\traces\\temp\\72e8b52f-b708-4a6d-89b9-04acb426af22"}</msg>
+<msg time="2026-03-17T15:53:49.111891" level="INFO">Starting Browser process C:\Projects\RobotFramework\RF_Pycharm\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:49828</msg>
+<msg time="2026-03-17T15:53:49.921739" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"args":["--start-maximized"],"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Projects\\RobotFramework\\RF_Pycharm\\browser\\traces\\temp\\72e8b52f-b708-4a6d-89b9-04acb426af22"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<arg>args=["--start-maximized"]</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-17T15:53:49.084097" elapsed="0.837922"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-17T15:53:49.925538" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": null
+}</msg>
+<msg time="2026-03-17T15:53:49.939628" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-17T15:53:49.939808" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': None}</msg>
+<arg>viewport=None</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-17T15:53:49.922382" elapsed="0.017556"/>
+</kw>
+<status status="PASS" start="2026-03-17T15:53:49.083485" elapsed="0.856667"/>
+</kw>
+<test id="s1-t1" name="Menu items Pooltraining.nl controleer headers twee" line="7">
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-17T15:53:51.159096" level="INFO">Successfully initialized new page object and opened url: https://pooltraining.nl/</msg>
+<arg>${url_homepage}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-17T15:53:49.943919" elapsed="1.215558"/>
+</kw>
+<kw name="Wait until argument visible" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:51.204229" level="INFO">Waited for Element with selector header h2.entry-title at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.167758" elapsed="0.036661"/>
+</kw>
+<kw name="Get Element Count" owner="Browser">
+<msg time="2026-03-17T15:53:51.211013" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${selector}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the count of elements found with ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.204647" elapsed="0.006418"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${count} &gt; 0</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.211245" elapsed="0.000604"/>
+</kw>
+<arg>${pagina_header_welkomstpagina}</arg>
+<status status="PASS" start="2026-03-17T15:53:51.166906" elapsed="0.045033"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:51.221204" level="INFO">Waited for Element with selector header h2.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.214495" elapsed="0.006908"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:51.259610" level="INFO">Text: 'Welkom bij Pooltraining.nl'</msg>
+<msg time="2026-03-17T15:53:51.259837" level="INFO">${header_text} = Welkom bij Pooltraining.nl</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.221631" elapsed="0.038240"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.260086" elapsed="0.000685"/>
+</kw>
+<arg>${pagina_header_welkomstpagina}</arg>
+<arg>${pagina_header_welkomstpagina_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:51.213342" elapsed="0.047512"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:51.262561" level="INFO">${selector} = .menu-item a:has-text("Pool les")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.261875" elapsed="0.000735"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:51.273358" level="INFO">Waited for Element with selector .menu-item a:has-text("Pool les") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.262717" elapsed="0.010935"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:51.274417" level="INFO">Clicks the element '.menu-item a:has-text("Pool les")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.273834" elapsed="0.601490"/>
+</kw>
+<arg>Pool les</arg>
+<status status="PASS" start="2026-03-17T15:53:51.261440" elapsed="0.614151"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:51.955218" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.876805" elapsed="0.078720"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:52.006018" level="INFO">Text: 'Pool training | Pool les'</msg>
+<msg time="2026-03-17T15:53:52.006346" level="INFO">${header_text} = Pool training | Pool les</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:51.955888" elapsed="0.050523"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.006802" elapsed="0.000899"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_poolles_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:51.876116" elapsed="0.131738"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:52.009835" level="INFO">${selector} = .menu-item a:has-text("Locatie")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.009189" elapsed="0.000709"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:52.016527" level="INFO">Waited for Element with selector .menu-item a:has-text("Locatie") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.010119" elapsed="0.006634"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:52.018263" level="INFO">Clicks the element '.menu-item a:has-text("Locatie")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.017072" elapsed="0.513505"/>
+</kw>
+<arg>Locatie</arg>
+<status status="PASS" start="2026-03-17T15:53:52.008565" elapsed="0.522445"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:52.610234" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.533868" elapsed="0.076691"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:52.653494" level="INFO">Text: 'Locatie'</msg>
+<msg time="2026-03-17T15:53:52.653818" level="INFO">${header_text} = Locatie</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.610935" elapsed="0.042947"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.654212" elapsed="0.000880"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_locatie_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:52.532958" elapsed="0.122293"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:52.656807" level="INFO">${selector} = .menu-item a:has-text("Tarieven")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.656265" elapsed="0.000596"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:52.667581" level="INFO">Waited for Element with selector .menu-item a:has-text("Tarieven") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.657058" elapsed="0.010812"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:52.669262" level="INFO">Clicks the element '.menu-item a:has-text("Tarieven")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:52.668205" elapsed="0.575394"/>
+</kw>
+<arg>Tarieven</arg>
+<status status="PASS" start="2026-03-17T15:53:52.655758" elapsed="0.588224"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:53.319308" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.245683" elapsed="0.073958"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:53.384095" level="INFO">Text: 'Tarieven'</msg>
+<msg time="2026-03-17T15:53:53.384448" level="INFO">${header_text} = Tarieven</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.320025" elapsed="0.064485"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.384870" elapsed="0.000975"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_tarieven_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:53.244640" elapsed="0.141531"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:53.388142" level="INFO">${selector} = .menu-item a:has-text("Beschikbaarheid")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.387508" elapsed="0.000695"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:53.400526" level="INFO">Waited for Element with selector .menu-item a:has-text("Beschikbaarheid") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.388435" elapsed="0.012438"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:53.402411" level="INFO">Clicks the element '.menu-item a:has-text("Beschikbaarheid")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.401254" elapsed="0.515836"/>
+</kw>
+<arg>Beschikbaarheid</arg>
+<status status="PASS" start="2026-03-17T15:53:53.386890" elapsed="0.530511"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:53.994962" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.918791" elapsed="0.076438"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:54.039788" level="INFO">Text: 'Beschikbaarheid'</msg>
+<msg time="2026-03-17T15:53:54.040086" level="INFO">${header_text} = Beschikbaarheid</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:53.995695" elapsed="0.044424"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.040480" elapsed="0.001028"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_beschikbaarheid_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:53.917957" elapsed="0.123789"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:54.043655" level="INFO">${selector} = .menu-item a:has-text("Contact")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.043025" elapsed="0.000701"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:54.051586" level="INFO">Waited for Element with selector .menu-item a:has-text("Contact") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.043950" elapsed="0.007883"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:54.053365" level="INFO">Clicks the element '.menu-item a:has-text("Contact")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.052151" elapsed="0.541995"/>
+</kw>
+<arg>Contact</arg>
+<status status="PASS" start="2026-03-17T15:53:54.042372" elapsed="0.552312"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:54.646871" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.603225" elapsed="0.043962"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:54.702237" level="INFO">Text: 'Contact'</msg>
+<msg time="2026-03-17T15:53:54.702562" level="INFO">${header_text} = Contact</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.647562" elapsed="0.055034"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.702830" elapsed="0.000587"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_contact_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:54.602264" elapsed="0.101252"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:54.705709" level="INFO">${selector} = .menu-item a:has-text("Over mij")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.705007" elapsed="0.000767"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:54.712972" level="INFO">Waited for Element with selector .menu-item a:has-text("Over mij") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.705998" elapsed="0.007284"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:54.714760" level="INFO">Clicks the element '.menu-item a:has-text("Over mij")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:54.713630" elapsed="0.586203"/>
+</kw>
+<arg>Over mij</arg>
+<status status="PASS" start="2026-03-17T15:53:54.704278" elapsed="0.604899"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:55.442055" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.314925" elapsed="0.127448"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:55.480558" level="INFO">Text: 'Over mij'</msg>
+<msg time="2026-03-17T15:53:55.480843" level="INFO">${header_text} = Over mij</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.442748" elapsed="0.038135"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.481646" elapsed="0.001138"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_overmij_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:55.313107" elapsed="0.169878"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:55.514631" level="INFO">${selector} = .menu-item a:has-text("Pooltoernooien")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.513741" elapsed="0.000935"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:55.523106" level="INFO">Waited for Element with selector .menu-item a:has-text("Pooltoernooien") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.515405" elapsed="0.008016"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:55.525038" level="INFO">Clicks the element '.menu-item a:has-text("Pooltoernooien")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:55.523794" elapsed="0.641663"/>
+</kw>
+<arg>Pooltoernooien</arg>
+<status status="PASS" start="2026-03-17T15:53:55.485437" elapsed="0.680372"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:56.214875" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.167345" elapsed="0.047763"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:56.265004" level="INFO">Text: 'Pooltoernooien'</msg>
+<msg time="2026-03-17T15:53:56.265437" level="INFO">${header_text} = Pooltoernooien</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.215394" elapsed="0.050136"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.265989" elapsed="0.001163"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_pooltoernooien_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:56.166379" elapsed="0.100995"/>
+</kw>
+<kw name="Click Menu Item" owner="pooltraining">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-17T15:53:56.269126" level="INFO">${selector} = .menu-item a:has-text("Wist je dat")</msg>
+<var>${selector}</var>
+<arg>.menu-item a:has-text("${menu_text}")</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.268794" elapsed="0.000361"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:56.276083" level="INFO">Waited for Element with selector .menu-item a:has-text("Wist je dat") at state visible</msg>
+<arg>${selector}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.269349" elapsed="0.006984"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:53:56.277644" level="INFO">Clicks the element '.menu-item a:has-text("Wist je dat")'.</msg>
+<arg>${selector}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.276646" elapsed="0.575290"/>
+</kw>
+<arg>Wist je dat</arg>
+<status status="PASS" start="2026-03-17T15:53:56.268142" elapsed="0.584134"/>
+</kw>
+<kw name="Valideer Header tekst" owner="pooltraining">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:53:56.896596" level="INFO">Waited for Element with selector header h1.entry-title at state visible</msg>
+<arg>${pagina_header}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.853846" elapsed="0.043026"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:53:56.949199" level="INFO">Text: 'Wist je dat…?'</msg>
+<msg time="2026-03-17T15:53:56.949667" level="INFO">${header_text} = Wist je dat…?</msg>
+<var>${header_text}</var>
+<arg>${pagina_header}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.897169" elapsed="0.052566"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${header_text}</arg>
+<arg>${controleer_tekst}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-17T15:53:56.950001" elapsed="0.001150"/>
+</kw>
+<arg>${pagina_header}</arg>
+<arg>${pagina_header_wistjedat_tekst}</arg>
+<status status="PASS" start="2026-03-17T15:53:56.852913" elapsed="0.098531"/>
+</kw>
+<msg time="2026-03-17T15:53:56.964272" level="INFO">Closing current active page.</msg>
+<msg time="2026-03-17T15:53:56.986763" level="INFO">Successfully closed Page with runBeforeUnload false</msg>
+<status status="PASS" start="2026-03-17T15:53:49.940262" elapsed="7.011703"/>
+</test>
+<status status="PASS" start="2026-03-17T15:53:48.784532" elapsed="8.203578"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Pooltraining" id="s1" pass="1" fail="0" skip="0">Test Pooltraining</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

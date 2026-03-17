@@ -1,0 +1,74 @@
+{"level":30,"time":"2026-03-17T14:14:37.409Z","pid":23088,"hostname":"MervinLaptop","msg":"Listening on 127.0.0.1:62502"}
+{"level":30,"time":"2026-03-17T14:14:37.934Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-17T14:14:38.208Z","pid":23088,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-17T14:14:38.208Z","pid":23088,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-17T14:14:38.208Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-17T14:14:38.215Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-17T14:14:38.216Z","pid":23088,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2026-03-17T14:14:38.216Z","pid":23088,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0a22cad5a2c411b6221100eb5c2ce29a\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=3e216d91-e8df-4516-8b2a-6d4ea373a51e\"}"}
+{"level":30,"time":"2026-03-17T14:14:38.216Z","pid":23088,"hostname":"MervinLaptop","msg":"Trace file: "}
+{"level":30,"time":"2026-03-17T14:14:38.227Z","pid":23088,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=800cd952-2e3e-46df-8f74-384ff45fdcd1 to 10000"}
+{"level":30,"time":"2026-03-17T14:14:38.227Z","pid":23088,"hostname":"MervinLaptop","msg":"Changed active context: context=800cd952-2e3e-46df-8f74-384ff45fdcd1"}
+{"level":30,"time":"2026-03-17T14:14:38.227Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-17T14:14:38.232Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-17T14:14:38.232Z","pid":23088,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0a22cad5a2c411b6221100eb5c2ce29a\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=800cd952-2e3e-46df-8f74-384ff45fdcd1\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@e53e92a7ad20a11937834b844bda9db6\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=3e216d91-e8df-4516-8b2a-6d4ea373a51e\"}"}
+{"level":30,"time":"2026-03-17T14:14:38.395Z","pid":23088,"hostname":"MervinLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-17T14:14:38.395Z","pid":23088,"hostname":"MervinLaptop","msg":"Changed active page"}
+{"level":30,"time":"2026-03-17T14:14:38.420Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-17T14:14:38.426Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-17T14:14:38.426Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2026-03-17T14:14:38.476Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-17T14:14:38.481Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.481Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2026-03-17T14:14:38.495Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.501Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.501Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=lastName in page."}
+{"level":30,"time":"2026-03-17T14:14:38.514Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.519Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.519Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2026-03-17T14:14:38.531Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-17T14:14:38.535Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-17T14:14:38.535Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=submitButton in page."}
+{"level":30,"time":"2026-03-17T14:14:38.655Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-17T14:14:38.659Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-17T14:14:38.660Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
+{"level":30,"time":"2026-03-17T14:14:38.664Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-17T14:14:38.667Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-17T14:14:38.668Z","pid":23088,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
+{"level":30,"time":"2026-03-17T14:14:38.697Z","pid":23088,"hostname":"MervinLaptop","msg":"Retrieved text for element id=successMsg containing Formulier succesvol ingediend!"}
+{"level":30,"time":"2026-03-17T14:14:38.697Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-17T14:14:38.702Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-17T14:14:38.715Z","pid":23088,"hostname":"MervinLaptop","msg":"Removed page=7287f6bb-f61b-41c4-bb5d-9891a292eb03 from context=800cd952-2e3e-46df-8f74-384ff45fdcd1 page stack"}
+{"level":30,"time":"2026-03-17T14:14:38.918Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-03-17T14:14:38.925Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-17T14:14:38.925Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-03-17T14:14:38.929Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-17T14:14:38.929Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-17T14:14:40.974Z","pid":23088,"hostname":"MervinLaptop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-17T14:14:40.975Z","pid":23088,"hostname":"MervinLaptop","msg":"End of node method closeAllBrowsers"}

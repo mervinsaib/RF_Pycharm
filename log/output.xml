@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-17T15:14:36.448173" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Form" source="C:\Projects\RobotFramework\RF_Pycharm\tests\test_form.robot">
+<test id="s1-t1" name="Formulier Invullen" line="7">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-17T15:14:36.850213" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Projects\\RobotFramework\\RF_Pycharm\\log\\browser\\traces\\temp\\5902ae0c-6c88-44ea-9259-19b8de290bf3"}</msg>
+<msg time="2026-03-17T15:14:36.873621" level="INFO">Starting Browser process C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:62502</msg>
+<msg time="2026-03-17T15:14:38.210670" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Projects\\RobotFramework\\RF_Pycharm\\log\\browser\\traces\\temp\\5902ae0c-6c88-44ea-9259-19b8de290bf3"}</msg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-17T15:14:36.848756" elapsed="1.362639"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-17T15:14:38.214866" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2026-03-17T15:14:38.230018" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-17T15:14:38.230324" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.211853" elapsed="0.018679"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-17T15:14:38.422884" level="INFO">Successfully initialized new page object and opened url: file://C:\Projects\RobotFramework\RF_Pycharm\resources/../pages/form.html</msg>
+<arg>${FORM_PAGE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.230807" elapsed="0.192653"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:14:38.478690" level="INFO">Waited for Element with selector id=firstName at state visible</msg>
+<arg>${input_firstName}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.423828" elapsed="0.055236"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-17T15:14:38.480544" level="INFO">Fills the text 'Mervin' in the given field.</msg>
+<arg>${input_firstName}</arg>
+<arg>${FIRST_NAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.479334" elapsed="0.018883"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-17T15:14:38.500698" level="INFO">Fills the text 'Saib' in the given field.</msg>
+<arg>${input_lastName}</arg>
+<arg>${LAST_NAME}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.498938" elapsed="0.017997"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-17T15:14:38.518553" level="INFO">Fills the text 'mervin@example.com' in the given field.</msg>
+<arg>${input_email}</arg>
+<arg>${EMAIL}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.517323" elapsed="0.016006"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-17T15:14:38.534610" level="INFO">Clicks the element 'id=submitButton'.</msg>
+<arg>${button_oefenformulierSubmit}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.533794" elapsed="0.123672"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-17T15:14:38.666164" level="INFO">Waited for Element with selector id=successMsg at state visible</msg>
+<arg>${successMsg}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.658220" elapsed="0.008295"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-17T15:14:38.699001" level="INFO">Text: 'Formulier succesvol ingediend!'</msg>
+<msg time="2026-03-17T15:14:38.699408" level="INFO">${actual_text} = Formulier succesvol ingediend!</msg>
+<var>${actual_text}</var>
+<arg>${successMsg}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.666784" elapsed="0.032704"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-03-17T15:14:38.700640" level="INFO">Success bericht: Formulier succesvol ingediend!</msg>
+<arg>Success bericht: ${actual_text}</arg>
+<arg>INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.699719" elapsed="0.001020"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${actual_text}</arg>
+<arg>${expectedText}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.700880" elapsed="0.000460"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-03-17T15:14:38.920526" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-17T15:14:38.701478" elapsed="0.219498"/>
+</kw>
+<status status="PASS" start="2026-03-17T15:14:36.847693" elapsed="2.073569"/>
+</test>
+<status status="PASS" start="2026-03-17T15:14:36.461617" elapsed="2.466639"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Form" id="s1" pass="1" fail="0" skip="0">Test Form</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

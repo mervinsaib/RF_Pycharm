@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oefenformulier</title>
+</head>
+<body>
+    <h1>Oefenformulier</h1>
+    <form id="myForm">
+        First Name: <input id="firstName" type="text"><br><br>
+        Last Name: <input id="lastName" type="text"><br><br>
+        Email: <input id="email" type="email"><br><br>
+        <button id="submitButton" type="button" onclick="submitForm()">Submit</button>
+    </form>
+    <p id="successMsg" style="display:none; color:green;">Formulier succesvol ingediend!</p>
+
+    <script>
+        function submitForm() {
+            document.getElementById('myForm').style.display = 'none';
+            document.getElementById('successMsg').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
