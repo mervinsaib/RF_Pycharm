@@ -1,5 +1,6 @@
 *** Settings ***
 Library    Browser
+Resource    ../resources/generiek.robot
 Resource    ../resources/pooltraining.robot
 Suite Setup     Open Browser setup
 
@@ -24,3 +25,4 @@ Menu items Pooltraining.nl controleer headers twee
     Valideer Header tekst    ${pagina_header}    ${pagina_header_pooltoernooien_tekst}
     Click Menu Item    Wist je dat
     Valideer Header tekst    ${pagina_header}    ${pagina_header_wistjedat_tekst}
+

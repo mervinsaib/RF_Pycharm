@@ -1,3 +1,6 @@
+*** Settings ***
+Library    Browser
+
 *** Variables ***
 ${FORM_PAGE}    file://${CURDIR}/../pages/form.html
 ${FIRST_NAME}   Mervin
