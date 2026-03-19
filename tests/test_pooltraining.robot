@@ -1,5 +1,6 @@
 *** Settings ***
 Library    Browser
+Library     Collections
 Resource    ../resources/generiek.robot
 Resource    ../resources/pooltraining.robot
 Suite Setup     Open Browser setup
@@ -26,3 +27,9 @@ Menu items Pooltraining.nl controleer headers twee
     Click Menu Item    Wist je dat
     Valideer Header tekst    ${pagina_header}    ${pagina_header_wistjedat_tekst}
 
+Ga op Home via de de link naar Pooltraining
+    New Page    ${url_homepage}
+    # Wait until argument visible    ${link_pooltraining}
+    Click    ${link_pooltraining}
+    # Wait until argument visible    ${pagina_header_poolles_tekst}
+    Valideer Header tekst   ${pagina_header}     ${pagina_header_poolles_tekst}

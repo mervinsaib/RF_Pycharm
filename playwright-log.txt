@@ -1,45 +1,47 @@
-{"level":30,"time":"2026-03-19T10:16:07.569Z","pid":17416,"hostname":"MervinLaptop","msg":"Listening on 127.0.0.1:52664"}
-{"level":30,"time":"2026-03-19T10:16:08.092Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-19T10:16:08.443Z","pid":17416,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-19T10:16:08.443Z","pid":17416,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-19T10:16:08.443Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-19T10:16:08.450Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-19T10:16:08.450Z","pid":17416,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
-{"level":30,"time":"2026-03-19T10:16:08.451Z","pid":17416,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1f77a2fdb53efb5f7138732b8b0adef9\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2c6441ce-d17e-420f-98e1-7aebb86f89b2\"}"}
-{"level":30,"time":"2026-03-19T10:16:08.451Z","pid":17416,"hostname":"MervinLaptop","msg":"Trace file: "}
-{"level":30,"time":"2026-03-19T10:16:08.462Z","pid":17416,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=4109212c-7543-44f3-a662-d44694403f04 to 10000"}
-{"level":30,"time":"2026-03-19T10:16:08.462Z","pid":17416,"hostname":"MervinLaptop","msg":"Changed active context: context=4109212c-7543-44f3-a662-d44694403f04"}
-{"level":30,"time":"2026-03-19T10:16:08.462Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-19T10:16:08.467Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-19T10:16:08.467Z","pid":17416,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1f77a2fdb53efb5f7138732b8b0adef9\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=4109212c-7543-44f3-a662-d44694403f04\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@2d500d327c85d44d0d62bb6d2d6ac467\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=2c6441ce-d17e-420f-98e1-7aebb86f89b2\"}"}
-{"level":30,"time":"2026-03-19T10:16:08.642Z","pid":17416,"hostname":"MervinLaptop","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-19T10:16:08.642Z","pid":17416,"hostname":"MervinLaptop","msg":"Changed active page"}
-{"level":30,"time":"2026-03-19T10:16:08.721Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-19T10:16:08.727Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:08.727Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
-{"level":30,"time":"2026-03-19T10:16:08.758Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:08.762Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.762Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
-{"level":30,"time":"2026-03-19T10:16:08.776Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.780Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.780Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=lastName in page."}
-{"level":30,"time":"2026-03-19T10:16:08.793Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.797Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.797Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2026-03-19T10:16:08.809Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-19T10:16:08.812Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:08.812Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=submitButton in page."}
-{"level":30,"time":"2026-03-19T10:16:08.858Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:08.862Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:08.862Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
-{"level":30,"time":"2026-03-19T10:16:08.865Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:08.869Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:08.869Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
-{"level":30,"time":"2026-03-19T10:16:08.897Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element id=successMsg containing Formulier succesvol ingediend!"}
-{"level":30,"time":"2026-03-19T10:16:08.897Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:08.904Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-19T10:16:08.921Z","pid":17416,"hostname":"MervinLaptop","msg":"Removed page=dd60a745-f07d-48b4-b793-d502980be6ab from context=4109212c-7543-44f3-a662-d44694403f04 page stack"}
-{"level":30,"time":"2026-03-19T10:16:09.142Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-03-19T13:21:48.963Z","pid":23188,"hostname":"MervinLaptop","msg":"Listening on 127.0.0.1:56221"}
+{"level":30,"time":"2026-03-19T13:21:49.497Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-19T13:21:49.794Z","pid":23188,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-19T13:21:49.794Z","pid":23188,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-19T13:21:49.794Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-19T13:21:49.801Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-19T13:21:49.801Z","pid":23188,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-19T13:21:49.802Z","pid":23188,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@970905f8741cbc8b1b253c13806a1c9d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=817b5f3a-a44d-4761-a387-86f037a2e299\"}"}
+{"level":30,"time":"2026-03-19T13:21:49.802Z","pid":23188,"hostname":"MervinLaptop","msg":"Trace file: "}
+{"level":30,"time":"2026-03-19T13:21:49.812Z","pid":23188,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=c592f9ca-c436-45e7-8a85-29b867ea5311 to 10000"}
+{"level":30,"time":"2026-03-19T13:21:49.812Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active context: context=c592f9ca-c436-45e7-8a85-29b867ea5311"}
+{"level":30,"time":"2026-03-19T13:21:49.812Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-19T13:21:49.816Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:49.817Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:49.821Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-19T13:21:49.822Z","pid":23188,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@970905f8741cbc8b1b253c13806a1c9d\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=c592f9ca-c436-45e7-8a85-29b867ea5311\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@3573fd21159575548c9a633a8400494c\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=817b5f3a-a44d-4761-a387-86f037a2e299\"}"}
+{"level":30,"time":"2026-03-19T13:21:49.988Z","pid":23188,"hostname":"MervinLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-19T13:21:49.988Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active page"}
+{"level":30,"time":"2026-03-19T13:21:50.018Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-19T13:21:50.023Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:50.023Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2026-03-19T13:21:50.052Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:50.057Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.057Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=firstName in page."}
+{"level":30,"time":"2026-03-19T13:21:50.070Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.076Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.076Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=lastName in page."}
+{"level":30,"time":"2026-03-19T13:21:50.087Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.092Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.092Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2026-03-19T13:21:50.109Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-19T13:21:50.114Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:50.114Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=submitButton in page."}
+{"level":30,"time":"2026-03-19T13:21:50.443Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:50.447Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:50.447Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
+{"level":30,"time":"2026-03-19T13:21:50.451Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:50.455Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:50.455Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with id=successMsg in page."}
+{"level":30,"time":"2026-03-19T13:21:50.483Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element id=successMsg containing Formulier succesvol ingediend!"}
+{"level":30,"time":"2026-03-19T13:21:50.483Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:50.488Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-19T13:21:50.505Z","pid":23188,"hostname":"MervinLaptop","msg":"Removed page=f460fc28-32aa-494b-8332-70734d7c9dc4 from context=c592f9ca-c436-45e7-8a85-29b867ea5311 page stack"}
+{"level":30,"time":"2026-03-19T13:21:50.711Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Projects\RobotFramework\RF_Pycharm\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -53,8 +55,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
 =============================================================
-{"level":30,"time":"2026-03-19T10:16:09.148Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.149Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.717Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.717Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Projects\RobotFramework\RF_Pycharm\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
@@ -68,162 +70,186 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
 =============================================================
-{"level":30,"time":"2026-03-19T10:16:09.154Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.154Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.164Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.164Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.168Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-19T10:16:09.483Z","pid":17416,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-19T10:16:09.483Z","pid":17416,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-19T10:16:09.483Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-19T10:16:09.488Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-19T10:16:09.489Z","pid":17416,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
-{"level":30,"time":"2026-03-19T10:16:09.489Z","pid":17416,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0579a42eb682a3961986495e19fc69a4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8eeeede0-a09d-4ad6-bf55-ca2f2111b495\"}"}
-{"level":30,"time":"2026-03-19T10:16:09.489Z","pid":17416,"hostname":"MervinLaptop","msg":"Trace file: "}
-{"level":30,"time":"2026-03-19T10:16:09.496Z","pid":17416,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=790c3f70-2343-40f3-bb9f-eb6bd74560a3 to 10000"}
-{"level":30,"time":"2026-03-19T10:16:09.496Z","pid":17416,"hostname":"MervinLaptop","msg":"Changed active context: context=790c3f70-2343-40f3-bb9f-eb6bd74560a3"}
-{"level":30,"time":"2026-03-19T10:16:09.496Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-19T10:16:09.500Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.500Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:09.503Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-19T10:16:09.504Z","pid":17416,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0579a42eb682a3961986495e19fc69a4\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=790c3f70-2343-40f3-bb9f-eb6bd74560a3\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@51858d8d64d8e18b7ccb6e3f9c375ff0\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=8eeeede0-a09d-4ad6-bf55-ca2f2111b495\"}"}
-{"level":30,"time":"2026-03-19T10:16:09.677Z","pid":17416,"hostname":"MervinLaptop","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-19T10:16:09.677Z","pid":17416,"hostname":"MervinLaptop","msg":"Changed active page"}
-{"level":30,"time":"2026-03-19T10:16:11.898Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-19T10:16:11.914Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:11.914Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h2.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:11.955Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:11.959Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2026-03-19T10:16:11.960Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: header h2.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:11.962Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
-{"level":30,"time":"2026-03-19T10:16:11.969Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:11.969Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h2.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:11.972Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:11.976Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:11.976Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h2.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:12.014Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h2.entry-title containing Welkom bij Pooltraining.nl"}
-{"level":30,"time":"2026-03-19T10:16:12.014Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:12.023Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.023Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pool les\") in page."}
-{"level":30,"time":"2026-03-19T10:16:12.040Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.044Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:12.044Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pool les\") in page."}
-{"level":30,"time":"2026-03-19T10:16:12.609Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:12.614Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.615Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:12.663Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.668Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:12.668Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:12.748Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Pool training | Pool les"}
-{"level":30,"time":"2026-03-19T10:16:12.748Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:12.756Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.756Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Locatie\") in page."}
-{"level":30,"time":"2026-03-19T10:16:12.760Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:12.764Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:12.764Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Locatie\") in page."}
-{"level":30,"time":"2026-03-19T10:16:13.348Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:13.356Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:13.356Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:13.410Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:13.413Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:13.413Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:13.465Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Locatie"}
-{"level":30,"time":"2026-03-19T10:16:13.465Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:13.473Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:13.473Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Tarieven\") in page."}
-{"level":30,"time":"2026-03-19T10:16:13.478Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:13.482Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:13.482Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Tarieven\") in page."}
-{"level":30,"time":"2026-03-19T10:16:14.090Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:14.095Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.096Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:14.156Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.160Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:14.161Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:14.207Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Tarieven"}
-{"level":30,"time":"2026-03-19T10:16:14.207Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:14.215Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.215Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Beschikbaarheid\") in page."}
-{"level":30,"time":"2026-03-19T10:16:14.220Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.223Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:14.223Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Beschikbaarheid\") in page."}
-{"level":30,"time":"2026-03-19T10:16:14.797Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:14.802Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.802Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:14.838Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.842Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:14.842Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:14.889Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Beschikbaarheid"}
-{"level":30,"time":"2026-03-19T10:16:14.889Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:14.895Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.896Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Contact\") in page."}
-{"level":30,"time":"2026-03-19T10:16:14.902Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:14.906Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:14.906Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Contact\") in page."}
-{"level":30,"time":"2026-03-19T10:16:15.589Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:15.594Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:15.595Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:15.635Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:15.639Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:15.639Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:15.673Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Contact"}
-{"level":30,"time":"2026-03-19T10:16:15.673Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:15.679Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:15.679Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Over mij\") in page."}
-{"level":30,"time":"2026-03-19T10:16:15.683Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:15.686Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:15.686Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Over mij\") in page."}
-{"level":30,"time":"2026-03-19T10:16:16.154Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:16.161Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.161Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:16.204Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.208Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:16.208Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:16.257Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Over mij"}
-{"level":30,"time":"2026-03-19T10:16:16.257Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:16.265Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.265Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pooltoernooien\") in page."}
-{"level":30,"time":"2026-03-19T10:16:16.271Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.276Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:16.276Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pooltoernooien\") in page."}
-{"level":30,"time":"2026-03-19T10:16:16.776Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:16.782Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.782Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:16.829Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.833Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:16.833Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:16.874Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Pooltoernooien"}
-{"level":30,"time":"2026-03-19T10:16:16.874Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:16.881Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.881Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Wist je dat\") in page."}
-{"level":30,"time":"2026-03-19T10:16:16.887Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:16.891Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-19T10:16:16.891Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Wist je dat\") in page."}
-{"level":30,"time":"2026-03-19T10:16:17.357Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-19T10:16:17.362Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:17.362Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:17.398Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-19T10:16:17.402Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:17.402Z","pid":17416,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with header h1.entry-title in page."}
-{"level":30,"time":"2026-03-19T10:16:17.450Z","pid":17416,"hostname":"MervinLaptop","msg":"Retrieved text for element header h1.entry-title containing Wist je dat…?"}
-{"level":30,"time":"2026-03-19T10:16:17.451Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-19T10:16:17.458Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.460Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.466Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.468Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.471Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method closePage"}
-{"level":30,"time":"2026-03-19T10:16:17.471Z","pid":17416,"hostname":"MervinLaptop","msg":"Closing page with runBeforeUnload false"}
-{"level":30,"time":"2026-03-19T10:16:17.489Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method closePage"}
-{"level":30,"time":"2026-03-19T10:16:17.494Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.494Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.496Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.496Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.498Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.498Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.501Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.501Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-19T10:16:17.504Z","pid":17416,"hostname":"MervinLaptop","msg":"Changed active context: context=790c3f70-2343-40f3-bb9f-eb6bd74560a3"}
-{"level":30,"time":"2026-03-19T10:16:17.505Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-19T10:16:17.526Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-19T10:16:17.571Z","pid":17416,"hostname":"MervinLaptop","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-19T10:16:17.794Z","pid":17416,"hostname":"MervinLaptop","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-19T13:21:50.721Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.721Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.731Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.731Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:50.734Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-19T13:21:50.990Z","pid":23188,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-19T13:21:50.991Z","pid":23188,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-19T13:21:50.991Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-19T13:21:50.996Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-19T13:21:50.996Z","pid":23188,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-19T13:21:50.996Z","pid":23188,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f9234e0e4836f05bfbf8c9058a81457d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=dc44e8a8-5a48-4c50-8829-f003b9c32c7d\"}"}
+{"level":30,"time":"2026-03-19T13:21:50.996Z","pid":23188,"hostname":"MervinLaptop","msg":"Trace file: "}
+{"level":30,"time":"2026-03-19T13:21:51.005Z","pid":23188,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=cc5c9241-d9bd-40b7-8033-51fbd93836a4 to 10000"}
+{"level":30,"time":"2026-03-19T13:21:51.005Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active context: context=cc5c9241-d9bd-40b7-8033-51fbd93836a4"}
+{"level":30,"time":"2026-03-19T13:21:51.005Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-19T13:21:51.010Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:51.011Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:51.014Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-19T13:21:51.014Z","pid":23188,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f9234e0e4836f05bfbf8c9058a81457d\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=cc5c9241-d9bd-40b7-8033-51fbd93836a4\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@6a550ba6d731c1bf05b59d70a8379850\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=dc44e8a8-5a48-4c50-8829-f003b9c32c7d\"}"}
+{"level":30,"time":"2026-03-19T13:21:51.169Z","pid":23188,"hostname":"MervinLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-19T13:21:51.169Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active page"}
+{"level":30,"time":"2026-03-19T13:21:53.399Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-19T13:21:53.406Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.406Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h2.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:53.444Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.450Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2026-03-19T13:21:53.450Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: css=header h2.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:53.457Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
+{"level":30,"time":"2026-03-19T13:21:53.469Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.469Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h2.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:53.473Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.479Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:53.479Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h2.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:53.512Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h2.entry-title containing Welkom bij Pooltraining.nl"}
+{"level":30,"time":"2026-03-19T13:21:53.512Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:53.521Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.522Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pool les\") in page."}
+{"level":30,"time":"2026-03-19T13:21:53.530Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:53.535Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:53.535Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pool les\") in page."}
+{"level":30,"time":"2026-03-19T13:21:54.120Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:54.126Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.126Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:54.175Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.180Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:54.180Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:54.251Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Pool training | Pool les"}
+{"level":30,"time":"2026-03-19T13:21:54.251Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:54.258Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.258Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Locatie\") in page."}
+{"level":30,"time":"2026-03-19T13:21:54.262Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.267Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:54.267Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Locatie\") in page."}
+{"level":30,"time":"2026-03-19T13:21:54.766Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:54.773Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.773Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:54.818Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.823Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:54.823Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:54.880Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Locatie"}
+{"level":30,"time":"2026-03-19T13:21:54.880Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:54.889Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.889Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Tarieven\") in page."}
+{"level":30,"time":"2026-03-19T13:21:54.894Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:54.900Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:54.900Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Tarieven\") in page."}
+{"level":30,"time":"2026-03-19T13:21:55.432Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:55.440Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:55.440Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:55.514Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:55.518Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:55.518Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:55.576Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Tarieven"}
+{"level":30,"time":"2026-03-19T13:21:55.576Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:55.587Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:55.587Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Beschikbaarheid\") in page."}
+{"level":30,"time":"2026-03-19T13:21:55.599Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:55.613Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:55.613Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Beschikbaarheid\") in page."}
+{"level":30,"time":"2026-03-19T13:21:56.094Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:56.100Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.100Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:56.166Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.170Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:56.170Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:56.203Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Beschikbaarheid"}
+{"level":30,"time":"2026-03-19T13:21:56.203Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:56.211Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.211Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Contact\") in page."}
+{"level":30,"time":"2026-03-19T13:21:56.215Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.219Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:56.219Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Contact\") in page."}
+{"level":30,"time":"2026-03-19T13:21:56.707Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:56.714Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.714Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:56.765Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.769Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:56.769Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:56.811Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Contact"}
+{"level":30,"time":"2026-03-19T13:21:56.811Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:56.819Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.819Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Over mij\") in page."}
+{"level":30,"time":"2026-03-19T13:21:56.828Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:56.831Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:56.831Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Over mij\") in page."}
+{"level":30,"time":"2026-03-19T13:21:57.395Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:57.402Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:57.402Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:57.442Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:57.447Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:57.447Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:57.489Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Over mij"}
+{"level":30,"time":"2026-03-19T13:21:57.489Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:57.497Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:57.497Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pooltoernooien\") in page."}
+{"level":30,"time":"2026-03-19T13:21:57.503Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:57.507Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:57.507Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Pooltoernooien\") in page."}
+{"level":30,"time":"2026-03-19T13:21:57.997Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:58.005Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.005Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:58.090Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.095Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:58.095Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:58.170Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Pooltoernooien"}
+{"level":30,"time":"2026-03-19T13:21:58.170Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:58.178Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.178Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Wist je dat\") in page."}
+{"level":30,"time":"2026-03-19T13:21:58.185Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.191Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:21:58.191Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with .menu-item a:has-text(\"Wist je dat\") in page."}
+{"level":30,"time":"2026-03-19T13:21:58.723Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:21:58.730Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.730Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:58.794Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:21:58.798Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:58.798Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:21:58.905Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Wist je dat…?"}
+{"level":30,"time":"2026-03-19T13:21:58.906Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:21:58.911Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.914Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.919Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.921Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.923Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method closePage"}
+{"level":30,"time":"2026-03-19T13:21:58.923Z","pid":23188,"hostname":"MervinLaptop","msg":"Closing page with runBeforeUnload false"}
+{"level":30,"time":"2026-03-19T13:21:58.943Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method closePage"}
+{"level":30,"time":"2026-03-19T13:21:58.947Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.947Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:21:58.951Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-19T13:21:58.951Z","pid":23188,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f9234e0e4836f05bfbf8c9058a81457d\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=cc5c9241-d9bd-40b7-8033-51fbd93836a4\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@6a550ba6d731c1bf05b59d70a8379850\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=dc44e8a8-5a48-4c50-8829-f003b9c32c7d\"}"}
+{"level":30,"time":"2026-03-19T13:21:59.079Z","pid":23188,"hostname":"MervinLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-19T13:21:59.079Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active page"}
+{"level":30,"time":"2026-03-19T13:22:00.214Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-19T13:22:00.218Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-19T13:22:00.218Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=p a:has-text(\"Pooltraining\") in page."}
+{"level":30,"time":"2026-03-19T13:22:00.777Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-19T13:22:00.784Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:22:00.784Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:22:00.880Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-19T13:22:00.884Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-19T13:22:00.884Z","pid":23188,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with css=header h1.entry-title in page."}
+{"level":30,"time":"2026-03-19T13:22:01.047Z","pid":23188,"hostname":"MervinLaptop","msg":"Retrieved text for element css=header h1.entry-title containing Pool training | Pool les"}
+{"level":30,"time":"2026-03-19T13:22:01.047Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-19T13:22:01.050Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.052Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.054Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.056Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.058Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method closePage"}
+{"level":30,"time":"2026-03-19T13:22:01.059Z","pid":23188,"hostname":"MervinLaptop","msg":"Closing page with runBeforeUnload false"}
+{"level":30,"time":"2026-03-19T13:22:01.075Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method closePage"}
+{"level":30,"time":"2026-03-19T13:22:01.080Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.080Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.082Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.082Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.083Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.083Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.088Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.088Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-19T13:22:01.091Z","pid":23188,"hostname":"MervinLaptop","msg":"Changed active context: context=cc5c9241-d9bd-40b7-8033-51fbd93836a4"}
+{"level":30,"time":"2026-03-19T13:22:01.094Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-19T13:22:01.123Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-19T13:22:01.158Z","pid":23188,"hostname":"MervinLaptop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-19T13:22:01.366Z","pid":23188,"hostname":"MervinLaptop","msg":"End of node method closeAllBrowsers"}

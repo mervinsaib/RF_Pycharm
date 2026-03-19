@@ -7,9 +7,10 @@ __pycache__/
 
 # Robot Framework output
 output/
-log.html
-report.html
-output.xml
+**/log.html
+**/report.html
+**/output.xml
+**/playwright-log.txt
 
 # Browser Library / Playwright
 playwright-report/

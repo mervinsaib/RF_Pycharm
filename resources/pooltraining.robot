@@ -3,6 +3,7 @@ Library    Browser
 
 *** Variables ***
 ${url_homepage}    https://pooltraining.nl/
+${link_pooltraining}    css=p a:has-text("Pooltraining")    
 ${hamburgermenu}    #site-navigation
 ${pagina_header_welkomstpagina}    css=header h2.entry-title
 ${pagina_header}    css=header h1.entry-title
@@ -29,3 +30,4 @@ Click Menu Item
     ${selector}=    Set Variable    .menu-item a:has-text("${menu_text}")
     Wait For Elements State    ${selector}    visible
     Click    ${selector}
+
