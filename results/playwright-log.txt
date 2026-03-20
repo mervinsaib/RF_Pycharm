@@ -1,69 +1,74 @@
-{"level":30,"time":"2026-03-20T09:57:38.311Z","pid":11424,"hostname":"MervinLaptop","msg":"Listening on 127.0.0.1:61884"}
-{"level":30,"time":"2026-03-20T09:57:38.841Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-20T09:57:39.154Z","pid":11424,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-20T09:57:39.155Z","pid":11424,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-20T09:57:39.155Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-20T09:57:39.163Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-20T09:57:39.163Z","pid":11424,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
-{"level":30,"time":"2026-03-20T09:57:39.164Z","pid":11424,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f7f4ebd84c9d165f161087b7094dc7cb\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=dc4cb29d-efca-4c7a-b658-67e778e6ca59\"}"}
-{"level":30,"time":"2026-03-20T09:57:39.164Z","pid":11424,"hostname":"MervinLaptop","msg":"Trace file: "}
-{"level":30,"time":"2026-03-20T09:57:39.173Z","pid":11424,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=169734fe-74be-41a5-9985-d9ea5ccaaea6 to 10000"}
-{"level":30,"time":"2026-03-20T09:57:39.173Z","pid":11424,"hostname":"MervinLaptop","msg":"Changed active context: context=169734fe-74be-41a5-9985-d9ea5ccaaea6"}
-{"level":30,"time":"2026-03-20T09:57:39.173Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-20T09:57:39.183Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:39.184Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:39.187Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-20T09:57:39.187Z","pid":11424,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f7f4ebd84c9d165f161087b7094dc7cb\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=169734fe-74be-41a5-9985-d9ea5ccaaea6\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@acb4f66fc9ad777c80c5953fb87f7872\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=dc4cb29d-efca-4c7a-b658-67e778e6ca59\"}"}
-{"level":30,"time":"2026-03-20T09:57:39.342Z","pid":11424,"hostname":"MervinLaptop","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-20T09:57:39.342Z","pid":11424,"hostname":"MervinLaptop","msg":"Changed active page"}
-{"level":30,"time":"2026-03-20T09:57:40.506Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-20T09:57:40.514Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:40.517Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with a[aria-label=\"Bol.com homepage\"] in page."}
-{"level":30,"time":"2026-03-20T09:57:40.643Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:40.650Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:40.650Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: a[aria-label=\"Bol.com homepage\"] in page."}
-{"level":30,"time":"2026-03-20T09:57:40.663Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:40.671Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-20T09:57:40.672Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
-{"level":30,"time":"2026-03-20T09:57:42.395Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-20T09:57:42.402Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:42.402Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
-{"level":30,"time":"2026-03-20T09:57:42.800Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:42.812Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:42.812Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
-{"level":30,"time":"2026-03-20T09:57:42.826Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:42.835Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-20T09:57:42.835Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with xpath=//input[@id=\"searchfor\"] in page."}
-{"level":30,"time":"2026-03-20T09:57:43.031Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-20T09:57:43.036Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method press"}
-{"level":30,"time":"2026-03-20T09:57:43.037Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with xpath=//input[@id=\"searchfor\"] in page."}
-{"level":30,"time":"2026-03-20T09:57:45.573Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method press"}
-{"level":30,"time":"2026-03-20T09:57:48.585Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:48.585Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with h1:has-text(\"in Alle artikelen\") in page."}
-{"level":30,"time":"2026-03-20T09:57:49.128Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2026-03-20T09:57:49.132Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:49.132Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: h1:has-text(\"in Alle artikelen\") in page."}
-{"level":30,"time":"2026-03-20T09:57:49.177Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
-{"level":30,"time":"2026-03-20T09:57:49.185Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-20T09:57:49.185Z","pid":11424,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with h1:has-text(\"in Alle artikelen\") in page."}
-{"level":30,"time":"2026-03-20T09:57:49.327Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method click"}
-{"level":30,"time":"2026-03-20T09:57:49.349Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.353Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.356Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.358Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.362Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method closePage"}
-{"level":30,"time":"2026-03-20T09:57:49.362Z","pid":11424,"hostname":"MervinLaptop","msg":"Closing page with runBeforeUnload false"}
-{"level":30,"time":"2026-03-20T09:57:49.395Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method closePage"}
-{"level":30,"time":"2026-03-20T09:57:49.411Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.411Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.413Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.413Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.417Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.417Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.420Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.420Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-20T09:57:49.422Z","pid":11424,"hostname":"MervinLaptop","msg":"Changed active context: context=169734fe-74be-41a5-9985-d9ea5ccaaea6"}
-{"level":30,"time":"2026-03-20T09:57:49.424Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-20T09:57:49.440Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-20T09:57:49.498Z","pid":11424,"hostname":"MervinLaptop","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-20T09:57:49.809Z","pid":11424,"hostname":"MervinLaptop","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-20T12:31:49.689Z","pid":18856,"hostname":"MervinLaptop","msg":"Listening on 127.0.0.1:62691"}
+{"level":30,"time":"2026-03-20T12:31:50.236Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-20T12:31:50.387Z","pid":18856,"hostname":"MervinLaptop","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-20T12:31:50.387Z","pid":18856,"hostname":"MervinLaptop","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-20T12:31:50.387Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-20T12:31:50.394Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-20T12:31:50.394Z","pid":18856,"hostname":"MervinLaptop","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null}"}
+{"level":30,"time":"2026-03-20T12:31:50.395Z","pid":18856,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@475e27f2e920fa125fa4dc3a10322291\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=8ffd733a-9906-4b53-bd56-eacd8c208044\"}"}
+{"level":30,"time":"2026-03-20T12:31:50.395Z","pid":18856,"hostname":"MervinLaptop","msg":"Trace file: "}
+{"level":30,"time":"2026-03-20T12:31:50.401Z","pid":18856,"hostname":"MervinLaptop","msg":"Setting default timeout for context context=400c7bc4-6c78-4c27-8eee-ee435c9a0943 to 10000"}
+{"level":30,"time":"2026-03-20T12:31:50.401Z","pid":18856,"hostname":"MervinLaptop","msg":"Changed active context: context=400c7bc4-6c78-4c27-8eee-ee435c9a0943"}
+{"level":30,"time":"2026-03-20T12:31:50.401Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-20T12:31:50.410Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:50.410Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:50.413Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-20T12:31:50.414Z","pid":18856,"hostname":"MervinLaptop","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@475e27f2e920fa125fa4dc3a10322291\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=400c7bc4-6c78-4c27-8eee-ee435c9a0943\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@946b411a88fc4fd1a9960ccd1887b4eb\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":null},\"traceFile\":\"\"}],\"id\":\"browser=8ffd733a-9906-4b53-bd56-eacd8c208044\"}"}
+{"level":30,"time":"2026-03-20T12:31:50.492Z","pid":18856,"hostname":"MervinLaptop","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-20T12:31:50.492Z","pid":18856,"hostname":"MervinLaptop","msg":"Changed active page"}
+{"level":30,"time":"2026-03-20T12:31:54.562Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-20T12:31:54.569Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-20T12:31:54.569Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with a[aria-label=\"Bol.com homepage\"] in page."}
+{"level":30,"time":"2026-03-20T12:31:54.689Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-20T12:31:54.693Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2026-03-20T12:31:54.693Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: a[aria-label=\"Bol.com homepage\"] in page."}
+{"level":30,"time":"2026-03-20T12:31:54.703Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
+{"level":30,"time":"2026-03-20T12:31:54.709Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T12:31:54.709Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
+{"level":30,"time":"2026-03-20T12:31:56.213Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T12:31:56.218Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-20T12:31:56.218Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
+{"level":30,"time":"2026-03-20T12:31:56.426Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-20T12:31:56.431Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2026-03-20T12:31:56.431Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is disabled, return Locator: div[role=\"dialog\"] button:has-text(\"accepteren\") in page."}
+{"level":30,"time":"2026-03-20T12:31:56.437Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getElementCount"}
+{"level":30,"time":"2026-03-20T12:31:56.444Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T12:31:56.444Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with xpath=//form[@id=\"siteSearch\"]//input[@id=\"searchfor\"] in page."}
+{"level":30,"time":"2026-03-20T12:31:56.605Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T12:31:57.611Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method press"}
+{"level":30,"time":"2026-03-20T12:31:57.611Z","pid":18856,"hostname":"MervinLaptop","msg":"Strict mode is enabled, find Locator with xpath=//form[@id=\"siteSearch\"]//input[@id=\"searchfor\"] in page."}
+{"level":30,"time":"2026-03-20T12:31:57.845Z","pid":18856,"hostname":"MervinLaptop","msg":"Error of node method  press"}
+================= Original suppressed error =================
+locator.press: Error: strict mode violation: locator('//form[@id="siteSearch"]//input[@id="searchfor"]') resolved to 2 elements:
+    1) <input type="text" id="searchfor" maxlength="75" autocorrect="off" name="searchtext" spellcheck="false" autocomplete="off" aria-label="Zoeken" value="draadloze muis" data-test="search_input_trigger" placeholder="Waar ben je naar op zoek?" class="w-full h-12 pl-6 bg-transparent border-none rounded-none outline-none↵  font-inherit leading-inherit appearance-none placeholder:text-neutral-text-interactive-disabled"/> aka locator('header [data-test="search_input_trigger"]')
+    2) <input type="text" id="searchfor" maxlength="75" autocorrect="off" name="searchtext" spellcheck="false" autocomplete="off" aria-label="Zoeken" value="draadloze muis" data-test="search_input_trigger" placeholder="Waar ben je naar op zoek?" class="w-full h-12 pl-6 bg-transparent border-none rounded-none outline-none↵  font-inherit leading-inherit appearance-none placeholder:text-neutral-text-interactive-disabled pl-none"/> aka getByRole('textbox', { name: 'Zoeken' })
+
+Call log:
+[2m  - waiting for locator('//form[@id="siteSearch"]//input[@id="searchfor"]')[22m
+
+    at press (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:12311:19)
+    at async PlaywrightServer.press (C:\Users\mervi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\Browser\wrapper\index.js:13635:28)
+=============================================================
+{"level":30,"time":"2026-03-20T12:31:57.851Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-20T12:31:57.851Z","pid":18856,"hostname":"MervinLaptop","Take screenshot with options: ":{"path":"C:\\Projects\\RobotFramework\\RF_Pycharm\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-03-20T12:31:58.019Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-03-20T12:31:58.052Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.074Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.076Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.090Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.093Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method closePage"}
+{"level":30,"time":"2026-03-20T12:31:58.093Z","pid":18856,"hostname":"MervinLaptop","msg":"Closing page with runBeforeUnload false"}
+{"level":30,"time":"2026-03-20T12:31:58.111Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method closePage"}
+{"level":30,"time":"2026-03-20T12:31:58.121Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.121Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.122Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.122Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.123Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.123Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.124Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.124Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T12:31:58.126Z","pid":18856,"hostname":"MervinLaptop","msg":"Changed active context: context=400c7bc4-6c78-4c27-8eee-ee435c9a0943"}
+{"level":30,"time":"2026-03-20T12:31:58.126Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-20T12:31:58.130Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-20T12:31:58.178Z","pid":18856,"hostname":"MervinLaptop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-20T12:31:58.309Z","pid":18856,"hostname":"MervinLaptop","msg":"End of node method closeAllBrowsers"}
