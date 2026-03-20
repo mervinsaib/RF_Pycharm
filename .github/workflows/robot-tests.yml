@@ -17,7 +17,7 @@ jobs:
     - name: Install Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.12'
 
     - name: Install dependencies
       run: |
@@ -32,7 +32,18 @@ jobs:
       run: |
         robot --variable HEADLESS:True -d results tests/
 
-    - name: Upload test results
+     # 5️⃣ Maak de map voor testresultaten
+    - name: Create results directory
+      run: mkdir -p results
+
+    # 6️⃣ Run alle tests in tests/ map
+    - name: Run RobotFramework tests
+      run: |
+        robot -d results tests/
+
+    # 7️⃣ Upload de testresultaten als artifacts
+    - name: Upload RobotFramework results
+      if: always()          # <--- dit zorgt dat artifacts altijd geüpload worden, zelfs bij test failures
       uses: actions/upload-artifact@v4
       with:
         name: robot-results
