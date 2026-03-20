@@ -3,7 +3,7 @@ Library    Browser
 Library    Collections
 
 *** Variables ***
-${HEADLESS}    False    # LET OP: zet deze op True als je push doet naar de repository, anders kunnen we de tests niet draaien in de CI/CD pipeline
+${HEADLESS}    True    # LET OP: zet deze op True als je push doet naar de repository, anders kunnen we de tests niet draaien in de CI/CD pipeline
 ${BROWSER}     chromium    # kies hier: chromium / firefox / webkit
 ${url_ophalen_links}    https://pooltraining.nl/
 
